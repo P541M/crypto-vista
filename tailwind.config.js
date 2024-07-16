@@ -7,7 +7,7 @@ module.exports = {
         text: "#EDF4F5", // Text colour
         bg: "#070C0C", // Background colour
         primary: "#A6CACC", // Main colour
-        secondary: "#3E3C6A", // Other main colour
+        secondary: "#00ffff", // Other main colour
         accent: "#8D70AE", // Accent colour
         bgContrast: "#040707", // Darker contrast background
       },

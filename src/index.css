@@ -23,27 +23,39 @@ html::-webkit-scrollbar {
   scroll-behavior: smooth;
 }
 
-.skewed {
-  transform: skewY(-10deg);
+/* Transitons */
+@keyframes fadeUpSkew {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) skewY(-10deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) skewY(-10deg);
+  }
+}
+
+.fade-up-skew {
+  animation: fadeUpSkew 1.5s ease-in-out forwards;
 }
 
 @keyframes fadeUp {
-  0% {
+  from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(15px);
   }
-  100% {
+  to {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
 .fade-up {
-  animation: fadeUp 1.5s ease-in-out forwards;
+  animation: fadeUp 1.5s ease-in-out;
 }
 
 .bg-gradient-to-r {
-  background: linear-gradient(270deg, #070c0c, #040707);
+  background: linear-gradient(270deg, #00ffff, #040707);
   background-size: 400% 400%;
   animation: gradientBackground 15s ease infinite;
 }
