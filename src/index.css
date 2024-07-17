@@ -23,7 +23,7 @@ html::-webkit-scrollbar {
   scroll-behavior: smooth;
 }
 
-/* Transitons */
+/* Transitions */
 @keyframes fadeUpSkew {
   0% {
     opacity: 0;
