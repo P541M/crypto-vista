@@ -4,7 +4,7 @@ import CryptoListPage from "./components/CryptoListPage";
 
 function App() {
   return (
-    <div className="App bg-gradient-to-r from-bg to-bgContrast min-h-screen">
+    <div className="App">
       <LandingPage />
       <CryptoListPage />
     </div>
