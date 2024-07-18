@@ -9,12 +9,6 @@ const LandingPage = () => {
       <p id="slogan" className="text-primary text-2xl fade-up-skew mb-8">
         Your Gateway to the Crypto World
       </p>
-      <button
-        id="cta-button"
-        className="bg-primary text-bg py-2 px-4 rounded-full hover:bg-secondary transition duration-300 fade-up-skew"
-      >
-        Explore Now
-      </button>
       <footer className="absolute bottom-4 text-text fade-up">
         © 2023 CryptoVista
       </footer>
