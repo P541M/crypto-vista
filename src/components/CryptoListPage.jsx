@@ -80,10 +80,10 @@ const CryptoListPage = () => {
         );
       })}
       <div className="absolute bottom-4 left-4 text-left text-text">
-        <p className="text-lg tracking-wide">dengiseD</p>
-        <p className="text-lg tracking-wider">yB</p>
-        <p className="text-lg tracking-widest">razeal3</p>
         <p className="text-lg tracking-widest">4 N E D I V</p>
+        <p className="text-lg tracking-widest">razeal3</p>
+        <p className="text-lg tracking-wider">yB</p>
+        <p className="text-lg tracking-wide">dengiseD</p>
       </div>
     </div>
   );
