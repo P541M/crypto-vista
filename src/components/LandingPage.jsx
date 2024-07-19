@@ -20,7 +20,7 @@ const LandingPage = () => {
       </div>
       <div className="absolute top-20 left-20 text-left">
         <h1 id="title" className="font-bold text-9xl mb-5 tracking-tighter">
-          CRYPT0 EL1TE
+          CRYPTo EL1Te
         </h1>
         <p id="slogan" className="text-6xl mb-10 tracking-wide">
           Sh0wcasing TH3
@@ -40,7 +40,7 @@ const LandingPage = () => {
         <p className="text-lg tracking-widest">V I D E N 4</p>
       </div>
 
-      <footer className="absolute bottom-4 right-4">© 2023 CRYPT0 EL1TE</footer>
+      <footer className="absolute bottom-4 right-4">© 2023 CRYPTo EL1Te</footer>
     </div>
   );
 };
