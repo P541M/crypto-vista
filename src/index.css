@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Main font */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-
 body {
-  font-family: "Raleway", sans-serif;
-  @apply tracking-wider;
+  font-family: "Helvetica", sans-serif;
 }
 
 /* Hide scroll bar while maintaining scroll functionality */
@@ -21,41 +17,4 @@ html {
 html::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
   scroll-behavior: smooth;
-}
-
-/* Transitions */
-@keyframes fadeUpSkew {
-  0% {
-    opacity: 0;
-    transform: translateY(20px) skewY(-10deg);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) skewY(-10deg);
-  }
-}
-
-.fade-up-skew {
-  animation: fadeUpSkew 1.5s ease-in-out forwards;
-}
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(15px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-up {
-  animation: fadeUp 1.5s ease-in-out;
-}
-
-.bg-gradient-to-r {
-  background: linear-gradient(270deg, #00ffff, #040707);
-  background-size: 400% 400%;
-  animation: gradientBackground 15s ease infinite;
 }
